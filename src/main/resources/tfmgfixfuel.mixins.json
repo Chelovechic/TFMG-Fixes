@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.tfmg.tfmgfixfuel.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "fuel.SmallEngineLinearFuelMixin",
+    "fixEngine_drops",
+    "RegularEngineBlockEntityAccessor",
+    "EmptyOilCanCrashFixMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
